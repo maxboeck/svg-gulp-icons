@@ -1,0 +1,18 @@
+{% extends "layout-base.html" %}
+{% from "icon.html" import icon %}
+
+{% block content %}
+<div class="demo container">
+
+  {{ icon('android') }}
+  {{ icon('cart') }}
+  {{ icon('paw') }}
+
+  <p>
+    <button class="btn btn--primary">
+      {{ icon('upload') }} upload
+    </button>
+  </p>
+
+</div>
+{% endblock %}

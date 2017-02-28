@@ -1,0 +1,27 @@
+/*
+ * Header Component
+ */
+
+.header {
+  text-align: center;
+  padding:1rem 0;
+  color: rgba(255,255,255,0.75);
+  background-color:#304053;
+  margin-bottom:2rem;
+
+  .logo {
+    font-size:1.25rem;
+    margin:0;
+  }
+}
+
+.demo {
+  color:#304053;
+  text-align: center;
+  font-size:6rem;
+}
+
+.icon svg {
+  position:relative;
+  top:-.125em;
+}

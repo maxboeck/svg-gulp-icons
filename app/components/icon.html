@@ -1,0 +1,10 @@
+{% macro icon( name='' ) %}
+  <span class="icon icon--{{name}}">
+    <svg role="img" aria-hidden=”true”>
+      <use 
+        xlmns:xlink="http://www.w3.org/1999/xlink" 
+        xlink:href="assets/icons/sprite.svg#{{name}}"
+      ></use>
+    </svg>
+  </span>
+{% endmacro %}

@@ -1,0 +1,28 @@
+.btn {
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  transition:all .2s ease-in-out;
+  font-weight: normal;
+  font-size: 2rem;
+  padding: .5rem 1.5rem;
+  border: 3px solid rgba(0,0,0,.2);
+  border-radius: .25rem;
+
+  &:hover, &:focus {
+    cursor:pointer;
+  }
+}
+
+.btn--primary {
+  background-color:#43A9A3;
+  color:#FFF;
+
+  &:hover, &:focus {
+    color:#43A9A3;
+    border-color:#43A9A3;
+    background-color:transparent;
+  }
+}
